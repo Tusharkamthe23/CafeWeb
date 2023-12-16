@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'kanit',sans-serif;
+}
+#contianer-background{
+   color: orange;
+}
+.navbar.brand{
+    margin:50px;
+    color:rgb(255, 166, 0); 
+    font-weight: bold;
+
+}
+#menu-color{
+    background-color: rgb(255, 166, 0);
+}
+.navbar-brand:hover{
+    color:orange;
+}
+#navbar-color{
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: 50px;
+    counter-reset:orange;
+    
+
+}
+#nav-item{
+    margin-left: 10px;
+    
+}
+#first{
+    border-bottom: 2px solid orange;
+}
+.nav-link {
+   color: aqua;
+   font-weight: bold;
+}
+.nav-link:hover{
+     background-color: orange;
+     box-shadow: 0 0 5px orange,
+                  0 0 20px orange,
+                  0 0 60px orange,
+                  0 0 150px orange;
+                  color:black;
+    }
+.main-content{
+    width: 100%;
+    height: 90vh;
+    background-image: url(main1.png);    background-size: cover;
+    background-position: 73%;
+
+
+}
+.content{
+    padding-top:160px;
+    margin-left: 50px;
+    color: white;
+
+}
+
+.content h1{
+    font-size:70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.content h2{
+    font-size:70%;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#btn1 button{
+    width:200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: orange;
+    border:none;
+    
+    cursor: pointer;
+}
+#btn1 button:hover{
+    background-color: orange;
+     box-shadow: 0 0 5px orange,
+                  0 0 20px orange,
+                  0 0 60px orange,
+                  0 0 150px orange;
+                  color:black;
+}
+
+.card{
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+
+}
+.best-card .card:hover{
+      transform: translateY(-15px);
+}
+.best-card h1{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px,5px black;
+}
+.best-card p{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+
+.container{
+    margin: 100px;
+
+}
+.card-content h1{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.card-content h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-content h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+card.content p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+.banner{
+    width: 100%;
+    height: 70vh;
+    margin-left: 20px;
+    background-image:url(main02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 69%;
+}
+
+.banner h1{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 5px;
+    text-shadow: 2px 1px 5px black;
+
+
+}
+.change-content:after{
+    content: ' ';
+    animation:changetext 10s infinite linear;
+    color:orange;
+
+}
+@keyframes changetext {
+    0%{content:" Chesse BUreger";}
+    20%{content:" Chiken burger";}
+    60%{content:" Sweet Burger";}
+    80%{content:"  Sandwich";}
+   100%{content:" fries";}
+}
+
+.banner h2{
+    font-size: 50px;
+    font-weight: bold;
+    color:orange;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+
+#btn2 button{
+    width: 200px;
+   
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+    transition: .3s ease ;
+    cursor: pointer;
+}
+
+#btn2 button:hover{
+    background-color: orange;
+    box-shadow: 0 0 5px orange,
+                 0 0 20px orange,
+                 0 0 60px orange,
+                 0 0 150px orange;
+               
+
+}
+
+.new.card{
+    margin-top: 50px;
+    cursor: pointer;
+}
+.new.card h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#btn3{
+    text-align: center;
+}
+#btn3 button{
+    width: 150px;
+    height: 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border:none;
+    background-color: orange;
+    transition: 0.50s ease-in;
+    cursor: pointer;
+
+}
+#btn3 button:hover{
+    background-color: black;
+    color:white;
+}
+#btn4{
+    text-align: center;
+    margin-top: 50px;
+}
+#btn4 button{
+    width: 200px;
+    height: 35px;
+  
+     font-weight: bold;
+    border:none;
+    background-color: orange;
+    transition:transform 0.5s ease;
+    cursor: pointer;
+}
+#btn4 button:hover{
+    transform:translateY(-10px) ;
+}
+
+
+
+.banner2{
+    width: 100%; 
+    height: 80vh;
+    background-image: url(Delivery.jpg);
+    background-size: cover;
+    background-position: 50px;
+    margin-top: 50px;
+
+
+}
+
+.banner2 h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    padding-top: 100px;
+    margin-left:10px;
+}
+
+.banner2 h2{
+    font-weight: bold;
+     color: black;
+    background-color: orange;
+    font-size: 60px;
+    display: inline-block;
+    margin-left:10px;
+}
+
+.about-us{
+    margin-top: 50px;
+
+}
+
+#footer{
+    background-color: black;
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: 50px;
+}
+#footer .footer-links a{ 
+    color:white;
+    font-weight:bold;
+    padding-left: 15px;
+
+}
+#footer .footer-links a:first-child{
+    padding-left: 0;
+}
+#footer .footer-links a:hover{
+    color:orange;
+}
+.copyright{
+    color:white;
+   margin-left: 50vh;
+}
+
